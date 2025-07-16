@@ -74,7 +74,7 @@ function onFormSubmit(e) {
 
 function sendMail(name, selectSubject, emails) {
  // MailApp.sendEmail(`${tutee},${tutor}`,'NHS Tutoring Match','Thank you for reaching out to the NHS Tutoring Program.\nYou were requested by a parent/teacher to tutor a student. Idk what else to write')
-  MailApp.sendEmail('tgeorgelearning@gmail.com,' + emails,'test',`${name} is teaching ${selectSubject}`)
+  MailApp.sendEmail('ABC,' + emails,'test',`${name} is teaching ${selectSubject}`) // In place of ABC, enter the email that the school/organisation wants to send the email from
 }
 
 function updateParentForm () {
